@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://mydomain.org/mysite/" rel="canonical"/>
+<link href="assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.5.34" name="generator"/>
+<title>My Docs</title>
+<link href="assets/stylesheets/main.35f28582.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="assets/stylesheets/panzoom.css" rel="stylesheet"/></head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#showcase">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="My Docs" class="md-header__button md-logo" data-md-component="logo" href="." title="My Docs">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            My Docs
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Showcase
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme)" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-2.69L23.31 12 20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20z"></path></svg>
+</label>
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="deep-purple" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="white" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 2c-1.82 0-3.53.5-5 1.35C8 5.08 10 8.3 10 12s-2 6.92-5 8.65C6.47 21.5 8.18 22 10 22a10 10 0 0 0 10-10A10 10 0 0 0 10 2"></path></svg>
+</label>
+<input aria-label="Switch to system preference" class="md-option" data-md-color-accent="deep-purple" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="black" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to system preference">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18V6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-2.69L23.31 12 20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="My Docs" class="md-nav__button md-logo" data-md-component="logo" href="." title="My Docs">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    My Docs
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Showcase
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href=".">
+<span class="md-ellipsis">
+    Showcase
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#abstract-data-model">
+<span class="md-ellipsis">
+      Abstract Data Model
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#materialized-data-model">
+<span class="md-ellipsis">
+      Materialized Data Model
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#abstract-data-model">
+<span class="md-ellipsis">
+      Abstract Data Model
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#materialized-data-model">
+<span class="md-ellipsis">
+      Materialized Data Model
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="showcase">Showcase</h1>
+<style>
+.md-typeset .panzoom-box {
+    background-color: transparent !important;
+}
+.md-typeset > .panzoom-box,
+.md-typeset .panzoom-box_:not(.result .panzoom-box) {
+    border: .05rem solid var(--md-code-bg-color);
+    border-bottom-left-radius: .1rem;
+    border-bottom-right-radius: .1rem;
+    border-top-width: .1rem;
+}
+</style>
+<h2 id="abstract-data-model"><strong>Abstract Data Model</strong></h2>
+<div class="highlight"><span class="filename">Abstract Data Model</span><pre><span></span><code>``` mermaid
+flowchart TB
+subgraph data_model["&lt;label style="font-size:0.8em;font-weight:bold;opacity:0.55;"&gt;data model [type: star schema]&lt;/label&gt;"]
+  direction TB
+
+  population[["&lt;b&gt;population&lt;/b&gt;"]]
+
+  expenditures["&lt;b&gt;expenditures&lt;/b&gt;"]
+  households["&lt;b&gt;households&lt;/b&gt;"]
+  household_members["&lt;b&gt;household_members&lt;/b&gt;"]
+
+  population_join_households("&lt;label style="opacity:.5"&gt;on: &lt;/label&gt;HOUSEHOLD_ID
+  &lt;label style="opacity:.5"&gt;relationship: &lt;/label&gt;many_to_one")
+
+  population_join_household_members("&lt;label style="opacity:.5"&gt;on: &lt;/label&gt;HOUSEHOLD_ID
+  &lt;label style="opacity:.5"&gt;relationship: &lt;/label&gt;many_to_one")
+
+  population_join_expenditures("&lt;label style="opacity:.5"&gt;on: &lt;/label&gt;HOUSEHOLD_ID
+  &lt;label style="opacity:.5"&gt;time_stamp: &lt;/label&gt;TIME_STAMP")
+
+  class population_join_households,population_join_household_members,population_join_expenditures joinClass;
+  classDef joinClass stroke-dasharray:3 3,opacity:1,stroke-opacity:0.3,font-size:0.95em;
+
+
+  households --- population_join_households --&gt; population
+  household_members --- population_join_household_members --&gt; population 
+  expenditures --- population_join_expenditures --&gt; population
+end
+
+style data_model opacity:0.3;
+```
+</code></pre></div>
+<div class="result" markdown="">
+<div class="panzoom-box"><nav class="panzoom-top-nav"><button class="panzoom-reset panzoom-button"><svg class="panzoom-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M125.7 160l50.3 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L48 224c-17.7 0-32-14.3-32-32L16 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 51.2L97.6 97.6c87.5-87.5 229.3-87.5 316.8 0s87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3s-163.8-62.5-226.3 0L125.7 160z"></path></svg></button><button class="panzoom-max panzoom-button"><svg class="panzoom-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M32 32C14.3 32 0 46.3 0 64l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96z"></path></svg></button><button class="panzoom-min panzoom-button panzoom-hidden"><svg class="panzoom-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M160 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96zM32 320c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM352 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 320c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0z"></path></svg></button></nav><pre class="mermaid"><code>flowchart TB
+subgraph data_model["&lt;label style="font-size:0.8em;font-weight:bold;opacity:0.55;"&gt;data model [type: star schema]&lt;/label&gt;"]
+  direction TB
+
+  population[["&lt;b&gt;population&lt;/b&gt;"]]
+
+  expenditures["&lt;b&gt;expenditures&lt;/b&gt;"]
+  households["&lt;b&gt;households&lt;/b&gt;"]
+  household_members["&lt;b&gt;household_members&lt;/b&gt;"]
+
+  population_join_households("&lt;label style="opacity:.5"&gt;on: &lt;/label&gt;HOUSEHOLD_ID
+  &lt;label style="opacity:.5"&gt;relationship: &lt;/label&gt;many_to_one")
+
+  population_join_household_members("&lt;label style="opacity:.5"&gt;on: &lt;/label&gt;HOUSEHOLD_ID
+  &lt;label style="opacity:.5"&gt;relationship: &lt;/label&gt;many_to_one")
+
+  population_join_expenditures("&lt;label style="opacity:.5"&gt;on: &lt;/label&gt;HOUSEHOLD_ID
+  &lt;label style="opacity:.5"&gt;time_stamp: &lt;/label&gt;TIME_STAMP")
+
+  class population_join_households,population_join_household_members,population_join_expenditures joinClass;
+  classDef joinClass stroke-dasharray:3 3,opacity:1,stroke-opacity:0.3,font-size:0.95em;
+
+
+  households --- population_join_households --&gt; population
+  household_members --- population_join_household_members --&gt; population 
+  expenditures --- population_join_expenditures --&gt; population
+end
+
+style data_model opacity:0.3;
+</code></pre><div class="panzoom-info-box">Press "Alt" / "Option" to enable Pan &amp; Zoom</div></div>
+</div>
+<h2 id="materialized-data-model"><strong>Materialized Data Model</strong></h2>
+<div class="highlight"><span class="filename">Abstract Data Model</span><pre><span></span><code><span class="gu">``` mermaid</span>
+<span class="gu">---</span>
+<span class="gu">title: "Consumer expenditure: getML data model details "</span>
+<span class="gu">---</span>
+%%{init: {
+  "themeCSS": [
+    "path.er.relationshipLine[marker-end*=ONLY_ONE_END] {marker-end:none;}",
+    "path.er.relationshipLine[marker-start*=ONLY_ONE_START] {marker-start:none}",
+    "g[id*=join] rect:first-child {stroke_:none;rx:5;opacity:0.4}",
+    "g[id*=join] rect:first-child + text {font-size:9px!important;font-weight:bold;text-transform:uppercase;dominant-baseline:central!important;}",
+    "g[id*=join] text {opacity:0.8}",
+    "g[id*=join] rect:not(:first-child) {stroke:none;fill:none;opacity:.7}",
+    "g[id*=join] text[id*=type] {}",
+    "g[id*=join] text[id*=name] {display:none;}",
+    "marker#ZERO_OR_MORE_START circle {display:none}",
+    "marker#ZERO_OR_MORE_END circle {display:none}",
+    "marker#ZERO_OR_ONE_START circle {display:none}",
+    "marker#ZERO_OR_ONE_END circle {display:none}"
+    ]
+}}%%
+erDiagram
+    population }o--|| population_join_households: ""
+    population_join_households ||--o| households: ""
+    population }o--|| population_join_expenditures: ""
+    population }o--|| population_join_household_members: ""
+    population_join_expenditures ||--o{ expenditures: ""
+    population_join_household_members ||--o{ household_members: ""
+
+    population_join_households["join"] {
+        on _ "HOUSEHOLD_ID"
+        relationship _ "many_to_one"
+    }
+    population_join_household_members["join"] {
+        on _ "HOUSEHOLD_ID"
+
+    }
+    population_join_expenditures["join"] {
+        on _ "HOUSEHOLD_ID"
+        time_stamp _ "TIME_STAMP"
+    }
+    expenditures["expenditures"] {
+        time_stamp TIME_STAMP
+        join_key HOUSEHOLD_ID
+        target GIFT
+        categorical MONTH
+        categorical YEAR
+        categorical PRODUCT_CODE "subroles: include.substring"
+        numerical COST
+        unused_float IS_TRAINING
+        unused_string EXPENDITURE_ID
+    }
+    households["households"] {
+        join_key HOUSEHOLD_ID
+        numerical YEAR
+        numerical INCOME_RANK
+        numerical INCOME_RANK_1
+        numerical INCOME_RANK_2
+        numerical INCOME_RANK_3
+        numerical INCOME_RANK_4
+        numerical INCOME_RANK_5
+        numerical INCOME_RANK_MEAN
+        numerical AGE_REF
+    }
+    household_members["household_members"] {
+        join_key HOUSEHOLD_ID
+        categorical MARITAL
+        categorical SEX
+        categorical WORK_STATUS
+        numerical YEAR
+        numerical AGE
+    }
+    population["population"] {
+        time_stamp TIME_STAMP
+        join_key HOUSEHOLD_ID
+        target GIFT
+        categorical MONTH
+        categorical YEAR
+        categorical PRODUCT_CODE "subroles: include.substring"
+        numerical COST
+        unused_float IS_TRAINING
+        unused_string EXPENDITURE_ID
+    }
+```
+</code></pre></div>
+<div class="result" markdown="">
+<div class="panzoom-box"><nav class="panzoom-top-nav"><button class="panzoom-reset panzoom-button"><svg class="panzoom-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M125.7 160l50.3 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L48 224c-17.7 0-32-14.3-32-32L16 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 51.2L97.6 97.6c87.5-87.5 229.3-87.5 316.8 0s87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3s-163.8-62.5-226.3 0L125.7 160z"></path></svg></button><button class="panzoom-max panzoom-button"><svg class="panzoom-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M32 32C14.3 32 0 46.3 0 64l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96z"></path></svg></button><button class="panzoom-min panzoom-button panzoom-hidden"><svg class="panzoom-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M160 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96zM32 320c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM352 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 320c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0z"></path></svg></button></nav><pre class="mermaid"><code>---
+title: "Consumer expenditure: getML data model details "
+---
+%%{init: {
+  "themeCSS": [
+    "path.er.relationshipLine[marker-end*=ONLY_ONE_END] {marker-end:none;}",
+    "path.er.relationshipLine[marker-start*=ONLY_ONE_START] {marker-start:none}",
+    "g[id*=join] rect:first-child {stroke_:none;rx:5;opacity:0.4}",
+    "g[id*=join] rect:first-child + text {font-size:9px!important;font-weight:bold;text-transform:uppercase;dominant-baseline:central!important;}",
+    "g[id*=join] text {opacity:0.8}",
+    "g[id*=join] rect:not(:first-child) {stroke:none;fill:none;opacity:.7}",
+    "g[id*=join] text[id*=type] {}",
+    "g[id*=join] text[id*=name] {display:none;}",
+    "marker#ZERO_OR_MORE_START circle {display:none}",
+    "marker#ZERO_OR_MORE_END circle {display:none}",
+    "marker#ZERO_OR_ONE_START circle {display:none}",
+    "marker#ZERO_OR_ONE_END circle {display:none}"
+    ]
+}}%%
+erDiagram
+    population }o--|| population_join_households: ""
+    population_join_households ||--o| households: ""
+    population }o--|| population_join_expenditures: ""
+    population }o--|| population_join_household_members: ""
+    population_join_expenditures ||--o{ expenditures: ""
+    population_join_household_members ||--o{ household_members: ""
+
+    population_join_households["join"] {
+        on _ "HOUSEHOLD_ID"
+        relationship _ "many_to_one"
+    }
+    population_join_household_members["join"] {
+        on _ "HOUSEHOLD_ID"
+
+    }
+    population_join_expenditures["join"] {
+        on _ "HOUSEHOLD_ID"
+        time_stamp _ "TIME_STAMP"
+    }
+    expenditures["expenditures"] {
+        time_stamp TIME_STAMP
+        join_key HOUSEHOLD_ID
+        target GIFT
+        categorical MONTH
+        categorical YEAR
+        categorical PRODUCT_CODE "subroles: include.substring"
+        numerical COST
+        unused_float IS_TRAINING
+        unused_string EXPENDITURE_ID
+    }
+    households["households"] {
+        join_key HOUSEHOLD_ID
+        numerical YEAR
+        numerical INCOME_RANK
+        numerical INCOME_RANK_1
+        numerical INCOME_RANK_2
+        numerical INCOME_RANK_3
+        numerical INCOME_RANK_4
+        numerical INCOME_RANK_5
+        numerical INCOME_RANK_MEAN
+        numerical AGE_REF
+    }
+    household_members["household_members"] {
+        join_key HOUSEHOLD_ID
+        categorical MARITAL
+        categorical SEX
+        categorical WORK_STATUS
+        numerical YEAR
+        numerical AGE
+    }
+    population["population"] {
+        time_stamp TIME_STAMP
+        join_key HOUSEHOLD_ID
+        target GIFT
+        categorical MONTH
+        categorical YEAR
+        categorical PRODUCT_CODE "subroles: include.substring"
+        numerical COST
+        unused_float IS_TRAINING
+        unused_string EXPENDITURE_ID
+    }
+</code></pre><div class="panzoom-info-box">Press "Alt" / "Option" to enable Pan &amp; Zoom</div></div>
+</div>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="assets/javascripts/bundle.56dfad97.min.js"></script>
+<script src="assets/javascripts/panzoom.min.js"></script><script src="assets/javascripts/zoompan.js"></script></body>
+</html>
