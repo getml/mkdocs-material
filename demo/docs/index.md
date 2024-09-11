@@ -2,15 +2,22 @@
 
 
 <style>
-.md-typeset .panzoom-box {
-    background-color: transparent !important;
+.md-typeset .panzoom-box:not(.panzoom-fullscreen) {
+    background-color: transparent;
 }
-.md-typeset > .panzoom-box,
+.md-typeset .panzoom-box.panzoom-fullscreen {
+    background-color: var(--md-default-bg-color) !important;
+}
+.md-typeset > .panzoom-box:not(.panzoom-fullscreen),
 .md-typeset .panzoom-box_:not(.result .panzoom-box) {
     border: .05rem solid var(--md-code-bg-color);
     border-bottom-left-radius: .1rem;
     border-bottom-right-radius: .1rem;
     border-top-width: .1rem;
+}
+body:has(div.panzoom-box.panzoom-fullscreen){
+  height: 100vh;
+  overflow-y: hidden;
 }
 </style>
 
@@ -19,7 +26,7 @@
 
 ```` markdown title="Abstract Data Model"
 ``` mermaid
-flowchart TB
+flowchart TB 
 subgraph data_model["<label style="font-size:0.8em;font-weight:bold;opacity:0.55;">data model [type: star schema]</label>"]
   direction TB
   

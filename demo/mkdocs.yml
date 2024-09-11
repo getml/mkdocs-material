@@ -2,6 +2,9 @@ site_name: My Docs
 site_url: https://getml.github.io/mkdocs-material/
 theme:
   name: material
+  features:
+    - content.code.copy
+    - content.code.select
   palette:
     # two color schemes: a light mode, which is just called default, and a dark mode, which is called slate
     # primary color is used for the header, the sidebar, text links and several other components (default: indigo)
