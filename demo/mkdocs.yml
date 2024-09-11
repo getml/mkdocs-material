@@ -1,0 +1,40 @@
+site_name: My Docs
+site_url: https://getml.github.io/mkdocs-material/
+theme:
+  name: material
+  palette:
+    # two color schemes: a light mode, which is just called default, and a dark mode, which is called slate
+    # primary color is used for the header, the sidebar, text links and several other components (default: indigo)
+    # accent color is used to denote elements that can be interacted with, e.g. hovered links, buttons and scrollbars (default: indigo)
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-5
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/brightness-2
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-6
+        name: Switch to system preference
+
+# Extensions
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+
+plugins:
+- panzoom:
+    always_show_hint: true # default false
+    full_screen: True # default False
