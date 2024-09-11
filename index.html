@@ -155,20 +155,27 @@
 <article class="md-content__inner md-typeset">
 <h1 id="showcase">Showcase</h1>
 <style>
-.md-typeset .panzoom-box {
-    background-color: transparent !important;
+.md-typeset .panzoom-box:not(.panzoom-fullscreen) {
+    background-color: transparent;
 }
-.md-typeset > .panzoom-box,
+.md-typeset .panzoom-box.panzoom-fullscreen {
+    background-color: var(--md-default-bg-color) !important;
+}
+.md-typeset > .panzoom-box:not(.panzoom-fullscreen),
 .md-typeset .panzoom-box_:not(.result .panzoom-box) {
     border: .05rem solid var(--md-code-bg-color);
     border-bottom-left-radius: .1rem;
     border-bottom-right-radius: .1rem;
     border-top-width: .1rem;
 }
+body:has(div.panzoom-box.panzoom-fullscreen){
+  height: 100vh;
+  overflow-y: hidden;
+}
 </style>
 <h2 id="abstract-data-model"><strong>Abstract Data Model</strong></h2>
 <div class="highlight"><span class="filename">Abstract Data Model</span><pre><span></span><code>``` mermaid
-flowchart TB
+flowchart TB 
 subgraph data_model["&lt;label style="font-size:0.8em;font-weight:bold;opacity:0.55;"&gt;data model [type: star schema]&lt;/label&gt;"]
   direction TB
 
